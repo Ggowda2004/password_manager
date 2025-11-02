@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Manager - Dashboard</title>
+</head>
+<body>
+    <h2>Your Saved Passwords</h2>
+
+    <h3>Add Password</h3>
+    <input type="text" id="site" placeholder="Site Name">
+    <input type="text" id="username" placeholder="Username">
+    <input type="text" id="password" placeholder="Password">
+    <button onclick="addPassword()">Add</button>
+
+    <h3>Saved Passwords</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Site</th>
+                <th>Username</th>
+                <th>Password</th>
+            </tr>
+        </thead>
+        <tbody id="passwordTable"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
