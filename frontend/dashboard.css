@@ -1,0 +1,49 @@
+body {
+    background: url("images/WhatsApp Image 2025-11-03 at 20.04.18_98ee9dcb.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 25px;
+    width: 70%;
+    margin: 60px auto;
+    border-radius: 12px;
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    background: rgba(255,255,255,0.15);
+    border-collapse: collapse;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}

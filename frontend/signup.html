@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup - Password Manager</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+
+        .left-section {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px;
+            background: #ffffff;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #0078D4;
+            border: none;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0064b0;
+        }
+
+        .right-section {
+            width: 60%;
+            background-image: url("images/WhatsApp Image 2024-07-07 at 20.21.27_8c80f717.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #0078D4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="left-section">
+        <h2>Create Account</h2>
+        <input type="email" id="signup_email" placeholder="Email">
+        <input type="password" id="signup_password" placeholder="Password">
+        <button onclick="signup()">Signup</button>
+
+        <a href="login.html">Already have an account? Login</a>
+    </div>
+
+    <div class="right-section"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

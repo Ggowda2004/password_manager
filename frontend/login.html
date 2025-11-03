@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Password Manager</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Left Form Section */
+        .left-section {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px;
+            background: #ffffff;
+        }
+
+        .left-section h2 {
+            margin-bottom: 10px;
+        }
+
+        .left-section p {
+            margin-top: 0;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #0078D4;
+            border: none;
+            color: white;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0064b0;
+        }
+
+        a {
+            margin-top: 10px;
+            font-size: 14px;
+            text-decoration: none;
+            color: #0078D4;
+        }
+
+        /* Right Image Section */
+        .right-section {
+            width: 60%;
+            background-image: url("images/WhatsApp Image 2024-06-27 at 13.27.36_89985c69.jpg"); /* Replace this */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="left-section">
+        <h2>Welcome Back</h2>
+        <p>Login to access your password vault</p>
+
+        <input type="email" id="login_email" placeholder="Email">
+        <input type="password" id="login_password" placeholder="Password">
+        <button onclick="login()">Login</button>
+
+        <a href="signup.html">Don't have an account? Sign up</a>
+    </div>
+
+    <div class="right-section"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

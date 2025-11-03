@@ -77,6 +77,11 @@ async function loadPasswords() {
         `;
     });
 }
+function copy(text) {
+    navigator.clipboard.writeText(text);
+    alert("Password copied!");
+}
+
 
 // Auto-load when dashboard opens
 if (window.location.pathname.includes("dashboard.html")) {
