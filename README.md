@@ -18,27 +18,7 @@ Encryption: AES (Fernet) + bcrypt hashing
     Delete saved credentials
     Logout functionality
 
-🧩 Project Structure
-password-manager/
-│
-├── backend/
-│   ├── main.py               # FastAPI entry point
-│   ├── auth.py               # Authentication & JWT logic
-│   ├── database.py           # MongoDB connection setup
-│   ├── encryption.py         # AES (Fernet) encryption/decryption
-│   ├── models.py             # Pydantic models for validation
-│   ├── requirements.txt      # Python dependencies
-│   └── .env                  # Environment variables (excluded from Git)
-│
-├── frontend/
-│   ├── login.html            # Login page
-│   ├── signup.html           # Signup page
-│   ├── dashboard.html        # Main user dashboard
-│   ├── app.js                # Frontend logic (API calls & UI)
-│   └── styles.css            # Styling for all pages
-│
-└── README.md
-
+**will be adding project structure later**
 
 🧠 Environment Variables (.env)
 
