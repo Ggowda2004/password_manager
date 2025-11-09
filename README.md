@@ -19,7 +19,7 @@ Encryption: AES (Fernet) + bcrypt hashing
     Logout functionality
 
 🧩 Project Structure
-password-manager/
+password-manager|
 │
 ├── backend/
 │   ├── main.py                # FastAPI entry point
