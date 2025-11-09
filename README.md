@@ -19,25 +19,26 @@ Encryption: AES (Fernet) + bcrypt hashing
     Logout functionality
 
 🧩 Project Structure
-password-manager|
+password-manager/
 │
 ├── backend/
-│   ├── main.py                # FastAPI entry point
-│   ├── auth.py                # User authentication & token logic
-│   ├── database.py            # MongoDB connection
-│   ├── encryption.py          # AES encryption/decryption
-│   ├── models.py              # Data models using Pydantic
-│   ├── .env                   # Environment variables (not in Git)
-│   ├── requirements.txt       # Dependencies
+│   ├── main.py               # FastAPI entry point
+│   ├── auth.py               # Authentication & JWT logic
+│   ├── database.py           # MongoDB connection setup
+│   ├── encryption.py         # AES (Fernet) encryption/decryption
+│   ├── models.py             # Pydantic models for validation
+│   ├── requirements.txt      # Python dependencies
+│   └── .env                  # Environment variables (excluded from Git)
 │
 ├── frontend/
-│   ├── login.html
-│   ├── signup.html
-│   ├── dashboard.html
-│   ├── app.js
-│   ├── styles.css
+│   ├── login.html            # Login page
+│   ├── signup.html           # Signup page
+│   ├── dashboard.html        # Main user dashboard
+│   ├── app.js                # Frontend logic (API calls & UI)
+│   └── styles.css            # Styling for all pages
 │
 └── README.md
+
 
 🧠 Environment Variables (.env)
 
