@@ -1,0 +1,17 @@
+# Web framework & server
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# MongoDB
+pymongo==4.8.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Auth & encryption
+bcrypt==4.2.0
+PyJWT==2.9.0
+cryptography==43.0.3
+
+# Data validation
+pydantic==2.9.2
